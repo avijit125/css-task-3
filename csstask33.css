@@ -1,0 +1,93 @@
+*{
+    padding: 0px;
+    margin: 0px;   
+}
+
+body{
+    background-color: #DBDBDB  ;
+}
+
+#head1{
+    background-color: #BB8FCE ;
+}
+
+#head1 h2{
+    margin-left: 14px;
+    padding: 5px 0px 5px 0px;
+    font-family: 'Fondamento', cursive;
+}
+
+#head2{
+    position: sticky;
+    top: 0px;
+    background-color: #2BB6DD;
+    box-shadow: 0px 5px 5px #353535;
+}
+
+#head2 ul{
+    display: inline-block;
+    margin-left: 14px;
+    font-family: 'Fondamento', cursive;
+}
+
+#head2 ul li{
+    display: inline-block;
+    margin: 10px 210px 10px 2px;
+}
+
+#head2 ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+#head2 ul li a:hover{
+    cursor: pointer;
+    color:   #009b72 ;
+}
+
+#body{
+    margin-top: 25px;
+    margin-left: 70px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#body-box1{
+    width: 58%;
+    background-color: white;
+    padding: 50px;
+    text-align: justify;
+    height: 1300px;
+    overflow-y: scroll;
+    font-family: 'Ubuntu', sans-serif;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+#body-box2{
+    display: flex;
+    align-items: flex-end;
+    width: 30%;
+    height: 450px;
+    background-color: white;
+    margin-left: -40px;
+    position: sticky;
+    top: 90px;
+    border: 2px solid white;
+    border-radius: 5px;  
+}
+
+#body-box2 button{
+    width: 100%;
+    font-size: 20px;
+    border: none;
+    color: white;
+    background-color: #009b72;
+    padding: 10px;
+}
+
+#body-box2 button:hover{
+    cursor: pointer;
+    background-color: #27ae60;
+}
